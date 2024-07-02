@@ -1,0 +1,96 @@
+body {
+    background: #181818;
+}
+
+aside {
+    float: left;
+    background: black;
+    width: 28%;
+    padding: 2.5%;
+    height: 200vh;
+    color: #fff;
+    border-right: 5px solid #4d4d4d;
+}
+
+aside img {
+    width: 80px;
+    float: left;
+}
+
+aside .logo {
+    font-size: 25px;
+    margin-left: 0px;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    color: #4283bb;
+}
+
+aside h3 {
+    margin-top: 80px;
+    font-size: 28px;
+    color: #4283bb;
+}
+
+aside ul li {
+    color: #fff;
+    display: block;
+    margin-top: 20px;
+    transition: transform .6s ease;
+}
+
+aside ul li:hover, aside ul a:link {
+    color: #4283bb;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+main .features {
+    float: left;
+    color: #fff;
+    margin-top: 50px;
+    text-align: center;
+    width: 72%;
+}
+
+main .features h1 {
+    font-size: 50px;
+    color: #4283bb;
+}
+main .features p {max-width: 400px; margin: 20px auto}
+
+.alert-warning {
+    float: left;
+    clear: both;
+    width: 400px;
+    margin: 20px 30%;
+    text-align: left;
+    background: gray;
+}
+
+.alert-warning h3 {
+    color: blue;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.alert-warning p {
+    margin-left: 10px;
+}
+
+form {
+    margin-left: 25%;
+    width: 500px;
+    margin-top: 50px;
+}
+
+.alert-warning a {
+    margin: 10px;
+}
+
+.alert-warning h4 {
+    float: right;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
